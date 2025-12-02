@@ -1,0 +1,13 @@
+print(1+2)
+print(3-6)
+print(3*2)
+print(5/2)
+print(5//2)
+print(5%2)
+print(2**3)
+print(5+2*3-1+10/5)
+
+weight=input("enter your weight in kg= ")
+height=input("enter your height in meter= ")
+bmi=(int(weight)/int(height ** 2))
+print(bmi)
